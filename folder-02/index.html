@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The CSS box model</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>The CSS Box Model Page</h1>
+
+      <nav class="header-nav">
+        <ul class="ul-1">
+          <li>About</li>
+          <li>Products</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+
+    <article>
+      <h2 class="h2-1">This is the article heading</h2>
+      <p class="p-1">I am a paragraph with a few words.</p>
+      <p class="p-2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, omnis
+        sapiente dolores itaque soluta laudantium incidunt provident tempore
+        quisquam dicta error optio! Dolorem porro beatae pariatur veritatis in,
+        magni quae.<span class="span-1">I am the first span element!</span>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, omnis
+        sapiente dolores itaque soluta laudantium incidunt provident tempore
+        quisquam dicta error optio! Dolorem porro beatae pariatur veritatis in,
+        magni quae.
+      </p>
+      <p class="p-3">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, omnis
+        sapiente dolores itaque soluta laudantium incidunt provident tempore
+        quisquam dicta error optio! Dolorem porro beatae pariatur veritatis in,
+        magni quae. <mark>I am the mark element!</mark>Lorem ipsum dolor sit
+        amet consectetur adipisicing elit. Aut, omnis sapiente dolores itaque
+        soluta laudantium incidunt provident tempore quisquam dicta error optio!
+        Dolorem porro beatae pariatur veritatis in, magni quae.
+      </p>
+      <p class="p-4">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, omnis
+        sapiente dolores itaque soluta laudantium incidunt provident tempore
+        quisquam dicta error optio! Dolorem porro beatae pariatur veritatis in,
+        magni <span class="span-2">I am the second span element!</span> Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Aut, omnis sapiente
+        dolores itaque soluta laudantium incidunt provident tempore quisquam
+        dicta error optio! Dolorem porro beatae pariatur veritatis in, magni
+        quae.
+      </p>
+    </article>
+    <div class="box-stand">
+      <span>This is a Standard Box Model</span>
+      <p>
+        The actual size is:<br />
+        Width = 2 + 20 + 300 + 20 + 2 = 344<br />
+        Height = 2 + 20+ 100 + 20 + 2 = 144
+      </p>
+    </div>
+
+    <div class="box-alt">
+      <span> This is an Alternative Box Model</span>
+      <p>The actual size is 300 X 100</p>
+    </div>
+  </body>
+</html>

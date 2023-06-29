@@ -1,0 +1,110 @@
+/* html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}  */
+
+body {
+  width: 98%;
+  background-color: #a1c2ff;
+  color: #010156;
+}
+
+h1 {
+  color: #b30527;
+  font-style: italic;
+  text-align: center;
+}
+
+.p-2 {
+  color: rgb(3, 138, 17);
+  font-style: italic;
+  font-weight: 700;
+}
+
+.p-3 {
+  color: #c4046a;
+  font-weight: bold;
+}
+
+nav {
+  border: solid 4px #010156;
+}
+
+/* The unordered list */
+.ul-1 {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 0;
+}
+
+/* List items */
+.ul-1>li {
+  border: solid 2px #b30527;
+  width: 70px;
+  padding: 0.5em;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* .h2-1,
+.p-1 {
+  display: inline;
+} */
+
+/* This is the first span element. */
+.span-1 {
+  color: #b30527;
+  border: solid 3px #010156;
+  /* width: 185px; */
+  /* height: 25px; */
+  /* margin: 20px; */
+  /* padding: 20px; */
+  /* display: block; */
+}
+
+mark {
+  border: solid 2px;
+}
+
+/* The second span element. */
+.span-2 {
+  border: solid 3px #038a11;
+  color: #b30527;
+  font-weight: 600;
+  /* display: inline-block; */
+  /* width: 210px; */
+  /* height: 25px; */
+  /* margin: 20px; */
+  /* padding: 20px; */
+}
+
+/* Margin collapsing */
+
+/* .h2-1 {
+  margin-bottom: 30px;
+} */
+
+.box-stand {
+  border: 2px solid;
+  width: 300px;
+  height: 100px;
+  margin: 25px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.box-alt {
+  box-sizing: border-box;
+  border: 2px solid;
+  width: 300px;
+  height: 100px;
+  margin: 25px auto;
+  padding: 20px;
+  text-align: center;
+}

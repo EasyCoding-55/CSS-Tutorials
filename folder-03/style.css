@@ -1,0 +1,136 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+/* article * {
+  background-color: #88bcf4;
+  color: #112a46;
+} */
+
+body {
+  margin: 0;
+  background-color: #011833;
+  color: #5ebcff;
+  padding: 1.5rem;
+  line-height: 1.5;
+}
+
+h1 {
+  color: #b30527;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: #06be43;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 0;
+}
+
+/* p {
+  background-color: #949494;
+  color: #230494;
+} */
+
+.header-nav {
+  border: 2px solid #6868f0;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.header-nav>a {
+  color: #dfeb36;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #06be43;
+}
+
+/* #article-h2 {
+  color: #0587f8;
+  font-style: italic;
+  text-align: center;
+  padding-top: 20px;
+} */
+
+/* h1,
+.p-1,
+#article-h2 {
+  color: #e2dcdc;
+} */
+
+.p-1:first-letter {
+  color: #b30527;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.p-2:first-line {
+  color: #dfeb36;
+  font-style: italic;
+}
+
+article>p:nth-last-child(1) {
+  background-color: #76a3f5;
+  color: #030380;
+}
+
+.p-1::selection {
+  background-color: black;
+  color: lime;
+}
+
+.p-2::after {
+  content: "This is Awesome!" url(smiley.png);
+  color: #b30527;
+}
+
+.p-3::before {
+  content: "How are you all doing?";
+  background-color: black;
+  color: lime;
+}
+
+/* Descendent selectors (add space between them) */
+
+.div-1 p {
+  background-color: #037903;
+  color: white;
+}
+
+/* The child combinator: the (>) is placed between two CSS selectors. */
+
+.div-1 p>span {
+  color: #f3ef06;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* The adjacent sibling selector, a (+) is placed between two CSS selectors. */
+
+article+p {
+  font-family: 'Arial Narrow';
+  color: #ee117f;
+}
+
+/* The general sibling combinator a tilde(~): */
+
+h3~p {
+  background-color: #01b4b4;
+  color: black;
+  font-style: italic;
+  font-weight: 600;
+}

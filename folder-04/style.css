@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Roboto&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --color-main-bg: #9daebe;
+  --color-text: #006;
+  --color-h1: #1436b2;
+  --color-h2: #1b4af4;
+  --color-main-nav-border: #dd0671;
+  --color-main-nav-a-hover: #6eff3e;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+  background-color: var(--color-main-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  font-family: Roboto;
+}
+
+h1 {
+  color: var(--color-h1);
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h2 {
+  color: var(--color-h2);
+  font-style: italic;
+  text-align: center;
+  padding-top: 0;
+  margin-bottom: 0;
+}
+
+.header-nav {
+  display: flex;
+  border: solid var(--color-main-nav-border) 3px;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50px;
+}
+
+.header-nav>a {
+  color: var(--color-text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-main-nav-a-hover);
+}
+
+/* a {
+  border: inherit;
+} */
+
+/* .p-1 {
+  color: #f34405;
+} */
+
+/* 
+The specificity numbers for the following are:
+
+Elements or Pseudo-element 0001  
+Class attribute or Pseudo-class 0010  
+ID attribute 0100  
+Style attribute 1000 
+*/

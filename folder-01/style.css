@@ -1,0 +1,64 @@
+/* This is a comment. */
+body {
+  background-color: skyblue;
+  color: darkblue;
+}
+
+h1 {
+  color: crimson;
+  font-style: italic;
+  text-align: center;
+}
+
+/* 
+Shorthand properties:
+
+h1 {
+  padding: 20px;
+}
+
+h1 { 
+  padding: 20px 15px;
+}
+
+h1 {
+padding: 20px 15px 10px;
+}
+
+h1 { 
+  padding: 15px 20px 20px 10px;
+}
+
+h1 {
+padding-top: 15px;
+padding-right: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+} 
+*/
+
+/* 
+Hexadecimal string notation:
+
+0 - 9 and A - F for a total of 16 characters.
+#RGB, #RGBA, or #RRGGBB, #RRGGBBAA
+*/
+
+.p-2 {
+  color: #c4046a;
+  font-weight: bold;
+}
+
+/*
+The RGB color functional notations: 
+
+rgb(R G B) rgb(000 000 000), rgb(255 255 255)
+rgba (R G B / A)
+256 x 256 x 256 = 16,777,216
+
+The HSL colors:
+hsl(H S L) or hsla(H S L / A)
+
+The HWB colors:
+hwb(H W B) or hwba(H W B / A)
+*/
